@@ -1,0 +1,26 @@
+.notes-list {
+  text-align: center;
+  margin: 60px; }
+  .notes-list .list-common > li {
+    display: flex; }
+    .notes-list .list-common > li > div {
+      flex: 2; }
+      .notes-list .list-common > li > div:first-child {
+        flex: 1; }
+      .notes-list .list-common > li > div:nth-child(2) {
+        flex: 4;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+        .notes-list .list-common > li > div:nth-child(2) > a {
+          color: rgba(67, 72, 77, 0.8); }
+          .notes-list .list-common > li > div:nth-child(2) > a:hover {
+            color: #f60; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=Category.css.map */
